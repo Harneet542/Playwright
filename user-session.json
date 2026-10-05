@@ -1,0 +1,364 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.991767169.1790901832",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1825461831.749872,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.584782964.1790901832",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1790988231,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_uuid",
+      "value": "J7AB49CE3DB94140A0EE2CF5F08750D79",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1822437832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vis_opt_s",
+      "value": "1%7C",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1799541832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vis_opt_test_cookie",
+      "value": "1",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vwo_ssm",
+      "value": "1",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1822437832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vis_opt_exp_360_combi",
+      "value": "2",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1799541832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vis_opt_exp_420_combi",
+      "value": "2",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1799541832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vwo_uuid_v2",
+      "value": "J7AB49CE3DB94140A0EE2CF5F08750D79|d07fb1a11b5ae034ae7025abb84f3b5c",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1822524232,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmfqbKDbaJTnZkeFmZOFa9KRbobLcUR1GfJfuxyu7aFkD41bdlCgJB9WXeQ",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1825461832.748717,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "YSC",
+      "value": "ue0Jsq2HdJM",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "oDLY7i3M8Lo",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806453834.062139,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJDQRIEGgAgUw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806453834.062173,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1790901893,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-YNID",
+      "value": "22.YT=XyetoYKqoaA6PTWaE9olnbx9cHK4Io8UF7BhPxKkZuEIFEsz331mke9ExSx1KdylU9qBwJ8gjP3ThvPcuN4EOxert1MxY3Ud0BuyHXgJuAvkTUdn0X2ISZSVCLQgpnFDSmmbhVjUOM-IEhXCJLhfLIoE8btxsQKhfGK1HGNUcUOiFR90yBJrRqyebI0Fpsj2CErMFS1nMEbc3-KcImpsXY1GjK6tWJTVNkTCvELI74uzLJbYPOmbDyQMb4vLKy3lNjsoq-TRXB861-KVxx_i3k1smuGpKLPQbKz7AoBqdW5iEVHhrHh2Oqox3wt6SKWxXiX0sXF5SvVqX565-Tx-xA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806453833.062034,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CJvRm-fquLbILRCQtKqcjZqXAxjZjumcjZqXAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1806453834.062095,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "site24x7rumID",
+      "value": "1133153047657036.1790901834563.1790901834563.0",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": 1825461834.563809,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.699047586.1790901833.1188608638.1790901835.1790901834.958349881.1790901835.1790901834",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1798677833,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vwo_ca",
+      "value": "1285643",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": 1790909037.472797,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vwo",
+      "value": "eyJ1c2VySWQiOiIxNzk0NTQyIiwiYWNjb3VudElkIjoiMTI4NTY0MyIsInRva2VuIjoibmlTSEJvN1hzVEd2NzVlWEZtd3pTMzBWNF9FblNXTktkZnJSZGlHbnp6MXFjX2lGWUZDRmY1eVo1NW9ZU3g5c0VlbTFZUlpDNGFoQVNpeENUb2Q2RUEiLCJ2YWxpZGl0eSI6IjcyMDAiLCJ2ZXJzaW9uIjoxLCJoYXNoIjoiNzc4YWFjMjdkMjllZTIwZTcyZDdhZDViMmUwODM0OWZkMTFkMjNmMyJ9",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": 1790909037.47286,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "vwo",
+      "value": "eyJ1c2VySWQiOiIxNzk0NTQyIiwiYWNjb3VudElkIjoiMTI4NTY0MyIsInRva2VuIjoibmlTSEJvN1hzVEd2NzVlWEZtd3pTMzBWNF9FblNXTktkZnJSZGlHbnp6MXFjX2lGWUZDRmY1eVo1NW9ZU3g5c0VlbTFZUlpDNGFoQVNpeENUb2Q2RUEiLCJ2YWxpZGl0eSI6IjcyMDAiLCJ2ZXJzaW9uIjoxLCJoYXNoIjoiNzc4YWFjMjdkMjllZTIwZTcyZDdhZDViMmUwODM0OWZkMTFkMjNmMyJ9",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": 1790909037.472917,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "ed8e35215e41621e163fb985cb27c532baebd7da",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": 1790909037.472945,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "en",
+      "domain": "app.wingify.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_LBVC51CNX9",
+      "value": "GS2.2.s1790901833$o1$g1$t1790901838$j55$l0$h0",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1825461838.572542,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_ds",
+      "value": "3%3Aa_1%2Ct_1%3A0%241790901830%3A44.25513106%3A395_1_0_2%2C397_1_0_2%3A22_1%2C42_1%3A15_1%2C14_1%3A2%2C2%3A1790901831%3A1790901831%3A1%3A420_1790901838%3A360_1790901837878_1_1%3B420_1790901838500_1_1%3A%3A4",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1798677838,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_vwo_sn",
+      "value": "1%3A4%3Ar2.visualwebsiteoptimizer.com%3A2%3A1%3Areferrer%3D%3A4%3A%3Ahttps%253A%252F%252Fapp.wingify.com%252F%2523%252Flogin%3A%3A",
+      "domain": ".wingify.com",
+      "path": "/",
+      "expires": 1790903638,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://wingify.com",
+      "_crHasCrossSiteAncestor": false
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.wingify.com",
+      "localStorage": [
+        {
+          "name": "previousLoginDetails",
+          "value": "{\"email\":\"aggiedaa49@bz.guidemaxima.com\",\"state\":\"normal\",\"userId\":1794542}"
+        },
+        {
+          "name": "isCachedLoad",
+          "value": "1"
+        },
+        {
+          "name": "ls.PendingSegmentEventsKey-8w79y12e90ru4yt8g75th3289",
+          "value": "[[\"App Logged in\",null]]"
+        },
+        {
+          "name": "vwo-theme",
+          "value": "auto"
+        },
+        {
+          "name": "_vwo_eventHist",
+          "value": "{\"session\":{\"vwo_pageView\":[{\"page\":{\"url\":\"https://app.wingify.com/#/login\",\"referrerUrl\":\"\",\"cnnUrl\":\"https://app.vwo.com/\",\"lv\":\"abNGLFxb\",\"pv\":1},\"VWO\":{\"firedTime\":1790901832024},\"cnt\":1,\"ts\":1790901832024},{\"page\":{\"url\":\"https://app.wingify.com/#/?accountId=1285643\",\"referrerUrl\":\"\",\"cnnUrl\":\"https://app.vwo.com/\",\"lv\":\"ac2PmU9E\",\"pv\":3},\"VWO\":{\"firedTime\":1790901837782},\"cnt\":4,\"ts\":1790901837782}]}}"
+        },
+        {
+          "name": "ls.editedCampaigns_1285643",
+          "value": "\"[]\""
+        },
+        {
+          "name": "ls.isNavCollapsed",
+          "value": "false"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1790901832557},\"expires\":1798677832557},\"gsid_dc\":{\"value\":{\"joinId\":\"pGZX-V_j37-RJtXPCCsIP23WjIhrqCrYtw\",\"lastJoinedTimeMs\":1790901832560},\"expires\":1790902132560}}"
+        },
+        {
+          "name": "_vwo_nlsCache",
+          "value": "{\"hm_root_monitoring_sent\":\"true\",\"asts\":[\"https%3A%2F%2Fapp.wingify.com%2Fjs%2Fstyle-CYn9QZgc.css\"]}"
+        },
+        {
+          "name": "ls.rootState",
+          "value": "{\"name\":\"dashboard\",\"params\":{}}"
+        },
+        {
+          "name": "vwoSn",
+          "value": "{\"cu\":\"https%3A%2F%2Fapp.wingify.com%2F%23%2Flogin\",\"r\":\"\",\"lt\":\"1790901834\",\"v\":\"0.1.0\"}"
+        },
+        {
+          "name": "accountId",
+          "value": "1285643"
+        },
+        {
+          "name": "isABTMergedTheme",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.youtube.com",
+      "localStorage": [
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1793493836714,\"creation\":1790901836714}"
+        },
+        {
+          "name": "yt-icons-last-purged",
+          "value": "1788309834374"
+        }
+      ]
+    }
+  ]
+}

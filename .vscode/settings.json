@@ -1,0 +1,23 @@
+{
+  // Code Runner: run Playwright spec files through the Playwright test runner instead of ts-node
+  "code-runner.executorMapByGlob": {
+    "*.spec.ts": "cd $workspaceRoot && npx playwright test $fileName --project=chromium"
+  },
+
+  // Always run the whole file
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  // Show IntelliSense dropdown after trigger characters such as .
+  "editor.suggestOnTriggerCharacters": true,
+
+  // Do NOT automatically show suggestions while normally typing
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+
+  // Do NOT show grey/ghost autocomplete text
+  "editor.inlineSuggest.enabled": false
+}

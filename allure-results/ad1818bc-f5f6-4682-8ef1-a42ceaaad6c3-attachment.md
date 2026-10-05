@@ -1,0 +1,449 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 04_Session_Storage\test_wingify.spec.ts >> go to login
+- Location: tests\04_Session_Storage\test_wingify.spec.ts:10:5
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected: "**/#/dashboard**"
+Received: "https://app.wingify.com/#/dashboard?accountId=1285643"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    11 × locator resolved to <html lang="en" id="atomic" class="no-js" data-abt-theme="true">…</html>
+       - unexpected value "https://app.wingify.com/#/dashboard?accountId=1285643"
+
+```
+
+```yaml
+- navigation:
+  - navigation "Main navigation":
+    - list:
+      - listitem:
+        - button "Go to Wingz Interface":
+          - img
+          - text: Wingz
+          - img
+      - listitem:
+        - link "Go to Dashboard":
+          - /url: "#/dashboard"
+          - img
+          - text: Dashboard
+      - listitem:
+        - button "Experimentation menu":
+          - img
+          - text: Experimentation
+          - img
+      - listitem:
+        - link "Go to Journey Analytics":
+          - /url: "#/analytics?view=overview"
+          - img
+          - text: Journey Analytics
+      - listitem:
+        - button "Behavior Analytics menu":
+          - img
+          - text: Behavior Analytics
+          - img
+      - listitem:
+        - button "User feedback menu":
+          - img
+          - text: User Feedback
+          - img
+      - listitem:
+        - button "Feature Management":
+          - img
+          - text: Feature Management
+          - img
+      - listitem:
+        - link "Go to Web Personalization":
+          - /url: "#/target/targeting/"
+          - img
+          - text: Web Personalization
+      - listitem:
+        - button "Data Platform menu":
+          - img
+          - text: Data Platform
+          - img
+      - listitem:
+        - button "Plan menu":
+          - img
+          - text: Plan
+          - img
+      - listitem
+      - listitem:
+        - link "Go to Upgrade":
+          - /url: "#/settings/upgrade/testing"
+          - img
+          - text: Upgrade
+        - button "Configurations menu":
+          - img
+          - text: Configurations
+          - img
+      - listitem:
+        - link "Go to Settings":
+          - /url: "#/settings/accounts/general"
+          - img
+          - text: Settings
+      - listitem:
+        - link "View Product Updates (opens in new tab)":
+          - /url: http://wingify.com/product-updates
+          - img
+          - text: Updates
+          - img
+        - button "Toggle navigation menu":
+          - img
+- banner:
+  - link "Go to dashboard":
+    - /url: "#/dashboard"
+    - img "Wingify ABTasty logo"
+    - text: / PLAYGROUND
+  - link "Playground website":
+    - /url: /safe-redirect/playground?url=https://playground.wingify.io
+    - text: Playground website
+    - img
+  - button "Need Help?":
+    - img
+    - text: Need Help?
+  - button "View Account Usage Activity":
+    - img
+  - dialog "Notification dialog":
+    - button "Open notifications":
+      - img
+      - img
+  - button "Wingz":
+    - img
+    - text: Wingz
+  - button "Open user menu":
+    - img "Test User"
+- main "Application main content":
+  - list:
+    - listitem:
+      - button "View dashboard": Dashboard
+    - listitem:
+      - button "View campaigns overview": Campaigns Overview
+    - listitem:
+      - button "View Impact Dashboard": Impact Dashboard
+  - img
+  - heading "Dashboard" [level=4]
+  - list:
+    - listitem:
+      - img "Notification banner image"
+      - heading "Wingify Chrome Extension" [level=6]
+      - paragraph: For enhanced capabilities in Wingify
+      - text: Install
+  - heading "Meet Wingz" [level=3]:
+    - img
+    - text: Meet Wingz
+  - paragraph: Ask about campaigns, recordings, heatmaps, and test ideas. All in one conversation.
+  - text: "[⇥ Tab] Analyze the results from my Checkout Form"
+  - button "Add files, agents and more":
+    - img
+  - button "Thinking":
+    - text: Thinking
+    - img
+  - button "Record":
+    - img
+  - button "Send message" [disabled]:
+    - img
+  - button "Analyze data":
+    - img
+    - text: Analyze data
+  - button "Identify friction":
+    - img
+    - text: Identify friction
+  - button "Get ideas":
+    - img
+    - text: Get ideas
+  - button "Explore":
+    - img
+    - text: Explore
+  - heading "Campaigns status" [level=5]
+  - text: Demo Workspace
+  - img
+  - text: Type
+  - img
+  - text: Status
+  - img
+  - text: Draft (1) QA (0) Ready to launch (0) Running (0) Paused (13) Analysis (0) Ended (0) Archived (0)
+  - button "View campaign overview dashboard":
+    - text: View campaign overview dashboard
+    - img
+  - heading "Campaign velocity" [level=5]
+  - text: Demo Workspace
+  - img
+  - text: All campaigns
+  - img
+  - heading "13" [level=6]
+  - paragraph: campaigns started
+  - heading "Scheduled campaigns" [level=5]
+  - img
+  - heading "No scheduled campaigns" [level=6]
+  - paragraph: Scheduled campaigns will appear here once they are set up.
+  - heading "Hypothesis" [level=5]
+  - list:
+    - listitem:
+      - link "View list of Backlog hypotheses":
+        - /url: "#/plan/hypotheses/listview"
+        - text: Backlog 5
+    - listitem:
+      - link "View list of Selected For Testing hypotheses":
+        - /url: "#/plan/hypotheses/listview"
+        - text: Selected For Testing 0
+      - img
+    - listitem:
+      - link "View list of Testing hypotheses":
+        - /url: "#/plan/hypotheses/listview"
+        - text: Testing 0
+      - img
+    - listitem:
+      - link "View list of Completed hypotheses":
+        - /url: "#/plan/hypotheses/listview"
+        - text: Completed 0
+      - img
+    - listitem:
+      - link "View list of Archived hypotheses":
+        - /url: "#/plan/hypotheses/listview"
+        - text: Archived 0
+      - img
+  - heading "Active tests 11" [level=5]
+  - link "View details of Checkout Form Simplification":
+    - /url: "#/test/ab/-1/report"
+    - heading "Checkout Form Simplification" [level=5]:
+      - img
+      - text: Checkout Form Simplification
+    - text: No hypothesis added V1 701 conversions / 4553 visitors C 541 conversions / 4476 visitors
+  - 'link "View details of Checkout flow : Form Redesign Test"':
+    - /url: "#/test/feature-experimentation/-15/report"
+    - 'heading "Checkout flow : Form Redesign Test" [level=5]':
+      - img
+      - text: "Checkout flow : Form Redesign Test"
+    - text: V1 3374 conversions / 6210 visitors D 2440 conversions / 6236 visitors
+  - list:
+    - listitem:
+      - button "Previous" [disabled]:
+        - img
+    - listitem:
+      - button "Go to page 0"
+    - listitem:
+      - button "Go to page 1"
+    - listitem:
+      - button "Go to page 2"
+    - listitem:
+      - button "Go to page 3"
+    - listitem:
+      - button "Go to page 4"
+    - listitem:
+      - button "Go to page 5"
+    - listitem:
+      - button "Next":
+        - img
+  - heading "Personalization 1" [level=5]
+  - link "View details of High Intent and window shoppers":
+    - /url: "#/target/targeting/-9/report"
+    - heading "High Intent and window shoppers" [level=5]:
+      - img
+      - text: High Intent and window shoppers
+    - img
+    - text: Visitor Split
+    - heading "E1 Experience 1" [level=6]
+    - text: "10K Visitors Revenue: $9.91"
+    - heading "H Holdback" [level=6]
+    - text: "529 Visitors Revenue: $7.15 +3 more Experiences"
+  - heading "Untested hypotheses 5" [level=5]
+  - link "View All Hypotheses added in last 7 days":
+    - /url: "#/plan/hypotheses/listview"
+    - text: Added in Last 7 days 5
+  - link "View All Not Prioritized Hypotheses":
+    - /url: "#/plan/hypotheses/listview"
+    - text: Not prioritized 0
+  - link "View details of Hypothesis 4":
+    - /url: "#/plan/hypotheses/listview"
+    - text: H4
+    - paragraph: Implementing a dedicated "Why Signup" section will clearly c... will address Users are hesitant to sign up because they are not fully awa...
+    - text: Backlog 4.7 / 5
+  - link "View details of Hypothesis 1":
+    - /url: "#/plan/hypotheses/listview"
+    - text: H1
+    - paragraph: Adding a prominent "Forgot Password" link on the sign-in pag... will address Users are unable to regain access to their accounts easily i...
+    - text: Backlog 4.3 / 5
+  - list:
+    - listitem:
+      - button "Previous" [disabled]:
+        - img
+    - listitem:
+      - button "Go to page 0"
+    - listitem:
+      - button "Go to page 1"
+    - listitem:
+      - button "Go to page 2"
+    - listitem:
+      - button "Next":
+        - img
+  - heading "Rolled out experiences" [level=5]
+  - link "View details of Category name change":
+    - /url: "#/deploy/experience/-10/report"
+    - img
+    - heading "Category name change" [level=6]
+  - link "View details of Increase contact us conversions":
+    - /url: "#/deploy/experience/-11/report"
+    - img
+    - heading "Increase contact us conversions" [level=6]
+  - heading "Total experiences" [level=5]
+  - link "View all experiences":
+    - /url: "#/deploy/experience"
+    - text: "2"
+  - heading "Heatmaps for most clicked pages" [level=5]
+  - list:
+    - listitem:
+      - button "View heatmap for https://playground.wingify.io/":
+        - img
+        - text: https://playground.wingify.io/
+    - listitem:
+      - button "View heatmap for https://playground.wingify.io/user/signup":
+        - img
+        - text: https://playground.wingify.io/user/signup
+    - listitem:
+      - button "View heatmap for https://playground.wingify.io/products/mens-watches":
+        - img
+        - text: https://playground.wingify.io/products/mens-watches
+    - listitem:
+      - button "View heatmap for https://playground.wingify.io/products/mens-watches/6862a22c43963d036093bfd0":
+        - img
+        - text: https://playground.wingify.io/products/mens-watches/6862a22c43963d036093bfd0
+  - heading "Forms 1" [level=5]
+  - list:
+    - listitem:
+      - button "Last 7 days"
+    - listitem:
+      - button "All data"
+  - link "View details of Contact Us form":
+    - /url: "#/analyze/form-analysis/-12/report"
+    - heading "Contact Us form" [level=6]:
+      - img
+      - text: Contact Us form
+    - text: 32 Form Submits till date 100% Landed
+    - img
+    - text: 12.50% Interacted
+    - img
+    - text: 57.14% Submitted
+  - heading "Latest Session Recordings" [level=5]
+  - link "View all session recordings":
+    - /url: "#/analyze/recording"
+    - text: View All
+  - img
+  - heading "Surveys 1" [level=5]
+  - link "View details of NPS Survey":
+    - /url: "#/analyze/survey/-13/report/surveys"
+    - heading "NPS Survey" [level=6]:
+      - img
+      - text: NPS Survey
+    - text: 163 Responses till date
+    - heading "Q1 Based on your overall experience with the VWO Playground, how likely are you to recommend it to a friend or colleague?" [level=6]
+    - img "NPS meter"
+    - text: 29 Detractors (0-6) 26.8% Passives (7-8) 16.99% Promoters (9-10) 56.21%
+  - img
+  - list:
+    - listitem:
+      - button "Get Support":
+        - img
+        - text: Get Support
+    - listitem:
+      - link "Developer resources":
+        - /url: "#/developers"
+        - img
+        - text: Developer resources
+    - listitem:
+      - link "Give us a call":
+        - /url: tel:+14153493207
+        - img
+        - text: +1-415-349-3207
+  - list:
+    - listitem:
+      - img
+      - text: "Data Region: US"
+    - listitem:
+      - link "Uptime Status":
+        - /url: https://secure-stats.pingdom.com/yd4ybaf8hhh2
+        - img
+        - text: Uptime Status
+  - link "Visit wingify.com":
+    - /url: https://wingify.com
+    - img "Wingify logo"
+- img:
+  - text: "'"
+  - img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- iframe
+- dialog "modal-header-1":
+  - button "Close":
+    - img
+  - img "Wingify logo"
+  - heading "VWO and AB Tasty are now Wingify" [level=2]
+  - paragraph: Nothing about your account has changed. Same login, same data, same campaigns running. What's new is the name, the look, and what a few things are called.
+  - button "Skip for now"
+  - button "See what changed"
+- dialog "modal-header-2":
+  - button "Close":
+    - img
+  - iframe
+  - paragraph: Meet
+  - img
+  - heading "Wingz" [level=2]
+  - paragraph: Discover how the unified power of Wingify and AB Tasty leverages AI to streamline your conversion rate optimization. From generating experiment ideas to launching flawless rollouts, see how end-to-end optimization just got smarter.
+  - img
+  - heading "Welcome to Wingz Early Access" [level=5]
+  - paragraph: We've activated a 30 days Wingz Advanced trial for your workspace so you can generate ideas, analyze behavior, and create experiments with AI.
+  - img
+  - text: 30 days free
+  - button "Start using Wingz":
+    - img
+    - text: Start using Wingz
+  - img
+  - paragraph: Your access is active. No additional setup needed.
+```
+
+# Test source
+
+```ts
+  1  | import {test, expect} from '@playwright/test'
+  2  | 
+  3  | test.use(
+  4  |     {
+  5  |         storageState: './user-session.json'
+  6  |     
+  7  |     }
+  8  | );
+  9  | 
+  10 | test("go to login" , async({page}) => {
+  11 |     await page.goto("https://app.wingify.com/#/dashboard?accountId=1285643");
+> 12 |     await expect(page).toHaveURL("**/#/dashboard**");
+     |                        ^ Error: expect(page).toHaveURL(expected) failed
+  13 | 
+  14 | });
+```
