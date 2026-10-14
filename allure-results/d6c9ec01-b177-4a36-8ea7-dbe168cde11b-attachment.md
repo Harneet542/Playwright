@@ -1,0 +1,33 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 07_web_select_dropdowns\type_dropdown.spec.ts >> verify dropdown
+- Location: tests\07_web_select_dropdowns\type_dropdown.spec.ts:3:5
+
+# Error details
+
+```
+Error: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for getByTestId('#rs-async-input')
+
+```
+
+# Test source
+
+```ts
+  1 | import { test, expect, Locator } from '@playwright/test'
+  2 | 
+  3 | test('verify dropdown', async ({ page }) => {
+  4 | await page.goto("https://app.thetestingacademy.com/playwright/tables/select-boxes") 
+> 5 | await page.getByTestId('#rs-async-input').fill("pune");
+    |                                           ^ Error: locator.fill: Target page, context or browser has been closed
+  6 | await expect(page.getByTestId('#rs-async-menu')).toContainText('Pune');
+  7 | await page.getByRole('option',{name : 'Pune', exact:true}).click();
+  8 | });
+```

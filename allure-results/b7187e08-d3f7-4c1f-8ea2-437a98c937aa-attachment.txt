@@ -1,0 +1,2 @@
+c:\Users\harne\OneDrive\Desktop\PlaywrightFundamentals3x\tests\13_File_Upload\file1.jpg
+c:\Users\harne\OneDrive\Desktop\PlaywrightFundamentals3x\tests\13_File_Upload\file2.jpg

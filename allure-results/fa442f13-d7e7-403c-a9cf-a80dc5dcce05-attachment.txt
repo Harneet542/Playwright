@@ -1,0 +1,21 @@
+Before running any Testcase!
+{
+  "id": "circle-red",
+  "testid": "shape-circle-red",
+  "ariaLabel": "Red circle"
+}
+{
+  "id": "rect-amber",
+  "testid": "shape-rect-amber",
+  "ariaLabel": "Amber rectangle"
+}
+{
+  "id": "triangle-mint",
+  "testid": "shape-triangle-mint",
+  "ariaLabel": "Mint triangle"
+}
+{
+  "id": "star-violet",
+  "testid": "shape-star-violet",
+  "ariaLabel": "Violet star"
+}
